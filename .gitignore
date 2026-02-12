@@ -1,0 +1,134 @@
+# ============ BACKEND (Python / FastAPI) ============
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+backend/venv/
+backend/env/
+backend/.venv/
+backend/.env
+
+# Database (jika pakai SQLite lokal)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+backend/.env
+backend/.env.*
+!.env.example
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ============ FRONTEND (Next.js + Bun) ============
+# Dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+frontend/yarn.lock
+frontend/package-lock.json
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/build
+
+# Production
+frontend/build
+
+# Misc
+frontend/.DS_Store
+frontend/*.pem
+
+# Debug
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnpm-debug.log*
+
+# Local env files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+!.env.example
+
+# Vercel
+frontend/.vercel
+
+# TypeScript
+frontend/next-env.d.ts
+
+# Bun
+frontend/bun.lockb
+frontend/bun.lock
+
+# ============ DOCKER ============
+*.pid
+*.seed
+*.pid.lock
+
+# ============ OS GENERATED FILES ============
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ============ IDE ============
+.vscode/
+.idea/
+*.iml
+*.sublime-*
+.project
+.classpath
+.settings/
+
+# ============ LOGS ============
+logs/
+*.log
+
