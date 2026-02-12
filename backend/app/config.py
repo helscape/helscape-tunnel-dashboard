@@ -1,5 +1,6 @@
 from pydantic_settings import BaseSettings
 from functools import lru_cache
+from typing import Optional  
 
 class Settings(BaseSettings):
     DEBUG: bool = False
@@ -20,7 +21,7 @@ class Settings(BaseSettings):
     MIDTRANS_CLIENT_KEY: str = ""
     MIDTRANS_SANDBOX: bool = True
     
-    class Config:
+    class ConfigDict:
         env_file = ".env"
 
 @lru_cache()
